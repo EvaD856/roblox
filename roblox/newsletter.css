@@ -1,0 +1,137 @@
+/*CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+header p{
+	font-size: 5em;
+	font-family:"Bubblegum Sans";
+	text-align:center;
+}
+
+nav li a{
+	text-decoration:none;
+	color:rgba(4,45,10,1.00);
+	font-size:30px;
+}
+
+header li{
+	display:inline;
+	padding: 0 30;
+	margin:0 .5em;
+	font-family:"Bubblegum Sans";
+}
+
+footer li{
+	font-family:"Bubblegum Sans";
+}
+
+nav ul li a:hover{
+	background-color:cornflowerblue;
+	border-radius:8px;
+	color:white;
+}
+
+nav ul li a:active{
+	background-color:white;
+	color:black;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align:center;
+}
+
+footer{
+	background-image:url("images/grass.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+body{
+	background-image:url("images/sky.jpg");
+}
+
+img{
+	float:left;
+	width:45%;
+	margin:4%;
+	border-radius:10px;
+}
+
+#news{
+	margin:0 10%;
+}
+
+label{
+	font-size:2em;
+	font-family:'IBM Plex Sans';
+}
+
+input{
+	font-size:2em;
+	margin:5px 0;
+	font-family:'IBM Plex Sans';
+}
+
+#subutton{
+	border-radius:10px;
+	margin: 0 5px;
+	font-family:'IBM Plex Sans';
+}
+
+#subutton:hover{
+	background-color:rgba(22,113,110,1.00);
+	color:white;
+	font-family:'IBM Plex Sans';
+}
+
+#resutton{
+	border-radius:10px;
+	font-family:'IBM Plex Sans';
+}
+
+#resutton:hover{
+	background-color:rgba(22,113,110,1.00);
+	color:white;
+}
+
+h1{
+	background-color:white;
+	font-family:'Bubblegum Sans';
+	width:50%;
+	text-align:center;
+	margin:0 25%;
+	border-radius:20px;
+	font-size:3em;
+}
+
+main p{
+	font-size:1.75em;
+	font-family:'IBM Plex Sans';
+	font-weight:bold;
+	margin:2%;
+}
+
+footer{
+	background-image:url("images/grass.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin:15% 0 0 0;
+	
+}
+
+footer nav li a:hover{
+	background-color:green;
+}
+
+#copy{
+	color:back;
+	background-color:white;
+	border-radius:15px;
+	width:10%;
+}
